@@ -1,3 +1,3 @@
-# `@wtget_api/api-win32-x64-msvc`
+# `@wtapi_get/api-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `@wtget_api/api`
+This is the **x86_64-pc-windows-msvc** binary for `@wtapi_get/api`

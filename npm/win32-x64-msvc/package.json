@@ -1,5 +1,5 @@
 {
-  "name": "@wtget_api/api-win32-x64-msvc",
+  "name": "@wtapi_get/api-win32-x64-msvc",
   "version": "1.0.1",
   "os": [
     "win32"

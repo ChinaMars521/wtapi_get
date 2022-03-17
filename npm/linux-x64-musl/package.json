@@ -1,5 +1,5 @@
 {
-  "name": "@wtget_api/api-linux-x64-musl",
+  "name": "@wtapi_get/api-linux-x64-musl",
   "version": "1.0.1",
   "os": [
     "linux"

@@ -1,3 +1,3 @@
-# `@wtget_api/api-darwin-arm64`
+# `@wtapi_get/api-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `@wtget_api/api`
+This is the **aarch64-apple-darwin** binary for `@wtapi_get/api`

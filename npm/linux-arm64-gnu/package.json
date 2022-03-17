@@ -1,5 +1,5 @@
 {
-  "name": "@wtget_api/api-linux-arm64-gnu",
+  "name": "@wtapi_get/api-linux-arm64-gnu",
   "version": "1.0.1",
   "os": [
     "linux"

@@ -1,15 +1,18 @@
 {
-  "name": "@wtget_api/api-win32-x64-msvc",
-  "version": "1.0.1",
+  "name": "@wtapi_get/api",
+  "version": "1.0.2",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "api.win32-x64-msvc.node",
+  "main": "index.js",
   "files": [
-    "api.win32-x64-msvc.node"
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
   ],
   "description": "Template project for writing node package with napi-rs",
   "keywords": [
@@ -26,7 +29,10 @@
   "engines": {
     "node": ">= 10"
   },
-
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": "https://github.com/ChinaMars521/wtapi_get.git",
   "bugs": {
     "url": "https://github.com/ChinaMars521/wtapi_get/issues"

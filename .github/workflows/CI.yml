@@ -491,7 +491,6 @@ jobs:
           else
             echo "Not a release, skipping publish"
           fi
-          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
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,9 +1,12 @@
 {
-  "name": "@wtapi_get/api",
+  "name": "@wtget_api/api",
   "version": "1.0.1",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
-  "repository": "https://github.com/ChinaMars521/wtapi_get.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinaMars521/wtapi_get.git"
+  },
   "license": "MIT",
   "keywords": [
     "napi-rs",
@@ -128,5 +131,6 @@
     "@wtget_api/api-linux-arm64-musl": "1.0.1",
     "@wtget_api/api-win32-arm64-msvc": "1.0.1",
     "@wtget_api/api-android-arm-eabi": "1.0.1"
-  }
+  },
+  "types": "./index.d.ts"
 }

@@ -1,9 +1,12 @@
 {
-  "name": "@napi-rs/package-template",
+  "name": "@wtget_api/api",
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinaMars521/wtapi_get.git"
+  },
   "license": "MIT",
   "keywords": [
     "napi-rs",
@@ -18,7 +21,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "package-template",
+    "name": "api",
     "triples": {
       "defaults": true,
       "additional": [
@@ -108,5 +111,10 @@
     "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ChinaMars521/wtapi_get/issues"
+  },
+  "homepage": "https://github.com/ChinaMars521/wtapi_get#readme",
+  "author": ""
 }

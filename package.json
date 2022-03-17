@@ -58,7 +58,10 @@
     "lint": "eslint . -c ./.eslintrc.yml",
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
-    "version": "napi version"
+    "ta":"apk add wget gcc g++ make libffi-dev openssl-dev libtool && wget https://www.openssl.org/source/openssl-1.1.1h.tar.gz && tar -zxvf openssl-1.1.1h.tar.gz && cd openssl-1.1.1h && make && make install",
+    "linuxmusl":"apk add --no-cache libressl-dev musl-dev libffi-dev",
+    "version": "napi version",
+    "aarch64": "apk add --no-cache libressl-dev musl-dev libffi-dev && napi build --platform --release --pipe \"prettier -w\" --target=aarch64-unknown-linux-musl && /aarch64-linux-musl-cross/bin/aarch64-linux-musl-strip *.node"
   },
   "devDependencies": {
     "@napi-rs/cli": "^2.0.0",

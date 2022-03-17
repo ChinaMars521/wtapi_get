@@ -1,4 +1,8 @@
-# `@napi-rs/package-template`
+# `@wtapi_get/wtapi`
+## 使用Rust开发的基础APi
+目前接口  
+    `wxaxios`  Get Post使用  
+    `wtDownload` 下载文件使用
 
 ![https://github.com/napi-rs/package-template/actions](https://github.com/napi-rs/package-template/workflows/CI/badge.svg)
 
@@ -7,7 +11,8 @@
 ## Install this test package
 
 ```
-yarn add @napi-rs/package-template
+yarn add @wtapi_get/api
+npm install @wtapi_get/api
 ```
 
 ## Support matrix

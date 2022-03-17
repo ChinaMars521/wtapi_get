@@ -10,7 +10,6 @@ use napi_derive::napi;
 use std::collections::HashMap;
 
 use reqwest::header::HeaderMap;
-use serde_json::value::Value;
 use anyhow::{Error, Result};
 use futures::future::join_all;
 use futures::StreamExt;
@@ -41,7 +40,6 @@ pub fn plus_100(input: u32) -> u32 {
 
 
 
-use easy_http_request::{DefaultHttpRequest};
 #[napi(object)]
 pub struct Pet {
   pub body: String,
@@ -55,20 +53,6 @@ pub struct Pet {
 fn sum(a: i32, b: i32) -> i32 {
   a + b
 }
-#[napi]
-fn wtapi(url: String) -> Pet {
-  let response = DefaultHttpRequest::get_from_url_str(url).unwrap().send().unwrap();
-  println!("{:?}", response.headers);
-  // println!("{}", String::from_utf8(response.body).unwrap());
-  let body = String::from_utf8(response.body).unwrap();
-  let status_code = response.status_code;
-  Pet{
-    body,
-    status_code:status_code as u32,
-    headers:response.headers
-  }
-}
-
 
 async fn get(url:&str) -> Result<HashMap<String, String>, reqwest::Error>{
   Ok(reqwest::get(url).await?.json::<HashMap<String, String>>().await?)

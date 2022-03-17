@@ -13,7 +13,6 @@ export interface Pet {
   headers: Record<string, string>
 }
 export function sum(a: number, b: number): number
-export function wtapi(url: string): Pet
 export interface Config {
   method?: string | undefined | null
   url: string

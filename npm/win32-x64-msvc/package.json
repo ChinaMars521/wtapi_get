@@ -1,5 +1,5 @@
 {
-  "name": "@wtapi_get/api-win32-x64-msvc",
+  "name": "@wtget_api/api-win32-x64-msvc",
   "version": "1.0.0",
   "os": [
     "win32"
@@ -20,6 +20,8 @@
     "node-addon",
     "node-addon-api"
   ],
+  "author": "",
+  "homepage": "https://github.com/ChinaMars521/wtapi_get#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
@@ -28,5 +30,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/ChinaMars521/wtapi_get.git"
+  "repository": "https://github.com/ChinaMars521/wtapi_get.git",
+  "bugs": {
+    "url": "https://github.com/ChinaMars521/wtapi_get/issues"
+  }
 }

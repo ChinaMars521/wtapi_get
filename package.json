@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChinaMars521/wtapi_get.git"
-  },
+  "repository": "https://github.com/ChinaMars521/wtapi_get.git",
   "license": "MIT",
   "keywords": [
     "napi-rs",

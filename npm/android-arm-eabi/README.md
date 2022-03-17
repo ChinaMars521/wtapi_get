@@ -1,3 +1,3 @@
-# `@wtapi_get/api-android-arm-eabi`
+# `@wtget_api/api-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `@wtapi_get/api`
+This is the **armv7-linux-androideabi** binary for `@wtget_api/api`

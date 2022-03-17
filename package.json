@@ -120,19 +120,6 @@
   "homepage": "https://github.com/ChinaMars521/wtapi_get#readme",
   "author": "",
   "optionalDependencies": {
-    "@wtget_api/api-win32-x64-msvc": "1.0.2",
-    "@wtget_api/api-darwin-x64": "1.0.2",
-    "@wtget_api/api-linux-x64-gnu": "1.0.2",
-    "@wtget_api/api-linux-x64-musl": "1.0.2",
-    "@wtget_api/api-linux-arm64-gnu": "1.0.2",
-    "@wtget_api/api-win32-ia32-msvc": "1.0.2",
-    "@wtget_api/api-linux-arm-gnueabihf": "1.0.2",
-    "@wtget_api/api-darwin-arm64": "1.0.2",
-    "@wtget_api/api-android-arm64": "1.0.2",
-    "@wtget_api/api-freebsd-x64": "1.0.2",
-    "@wtget_api/api-linux-arm64-musl": "1.0.2",
-    "@wtget_api/api-win32-arm64-msvc": "1.0.2",
-    "@wtget_api/api-android-arm-eabi": "1.0.2"
   },
   "types": "./index.d.ts"
 }

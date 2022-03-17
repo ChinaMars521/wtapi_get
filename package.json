@@ -1,6 +1,6 @@
 {
   "name": "@wtget_api/api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
   "repository": {
@@ -117,7 +117,6 @@
   },
   "homepage": "https://github.com/ChinaMars521/wtapi_get#readme",
   "author": "",
-  "optionalDependencies": {
-  },
+  "optionalDependencies": {},
   "types": "./index.d.ts"
 }
